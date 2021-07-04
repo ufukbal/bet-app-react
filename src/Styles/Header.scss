@@ -1,0 +1,15 @@
+@import './Variables.scss';
+
+.header {
+  width: 100%;
+
+  align-items: center;
+  justify-content: center;
+  font-weight: $boldFont;
+  line-height: 20px;
+  background-color: $background-color;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+}
