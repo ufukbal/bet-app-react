@@ -24,7 +24,7 @@ function Header() {
       <header>Header Container</header>
       <header id='myHeader' className='header'>
         <article className='grid-container'>
-          <div className='grid-child'>Event Count: 3000</div>
+          <div className='grid-child title'>Event Count: 3000</div>
           <div className='grid-child'></div>
           <div className='grid-child'>1</div>
           <div className='grid-child'>x</div>

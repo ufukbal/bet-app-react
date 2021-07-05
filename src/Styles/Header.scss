@@ -2,7 +2,6 @@
 
 .header {
   width: 100%;
-
   align-items: center;
   justify-content: center;
   font-weight: $boldFont;
@@ -10,6 +9,7 @@
   background-color: $background-color;
 }
 .sticky {
+  width: calc(100% - 16px);
   position: fixed;
   top: 0;
 }

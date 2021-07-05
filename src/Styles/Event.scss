@@ -17,3 +17,7 @@
   border-left: 1px solid black;
   grid-template-columns: 2fr repeat(9, 1fr);
 }
+.title {
+  color: $titleColor;
+  font-weight: $boldFont;
+}

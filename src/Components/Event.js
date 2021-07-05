@@ -12,17 +12,16 @@ export const Event = ({ event }) => {
     } else {
       addEvents({ event, rat });
     }
-    //console.log(rat1, event.NID);
   };
 
   return (
     <>
       <article className='grid-container'>
-        <div className='grid-child'>
+        <div className='grid-child title'>
           {event.date} {event.day} {event.league}
         </div>
         <div className='grid-child'></div>
-        <div className='grid-child item'>{event.name1}</div>
+        <div className='grid-child'>{event.name1}</div>
         <div className='grid-child'>{event.nameX}</div>
         <div className='grid-child'>{event.name2 || 2}</div>
         <div className='grid-child'>{event.nameAlt}</div>

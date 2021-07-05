@@ -12,6 +12,7 @@
 }
 
 .sticky {
+  width: calc(100% - 16px);
   position: fixed;
   top: 0;
 }
